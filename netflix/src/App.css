@@ -1,3 +1,7 @@
+:root {
+  --vermelho: #E50914;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,4 +62,17 @@ a {
 
 .criador p {
   padding: 5px;
+}
+
+/* NavBar */
+.logo {
+  margin-left: 5%;
+  height: 60px;
+  font-size: 35px;
+  color: var(--vermelho);
+}
+
+/* Entrar da página Login */
+.entrar-container {
+  margin: 5%;
 }
